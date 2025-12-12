@@ -16,7 +16,9 @@
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "mongodb": "^7.0.0",
-    "notenv": "^2.0.3"
+    "nodemailer": "^7.0.11",
+    "notenv": "^2.0.3",
+    "react-icons": "^5.5.0"
   },
   "devDependencies": {
     "prettier": "3.6.2"
