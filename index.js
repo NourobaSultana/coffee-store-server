@@ -30,6 +30,7 @@ async function run() {
     // ✔ Get all coffees
     app.get("/coffees", async (req, res) => {
       const result = await coffeesCollection.find().toArray();
+      console.log(result);
       res.send(result);
     });
 
