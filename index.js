@@ -147,7 +147,8 @@ app.get("/", (req, res) => {
   res.send("Coffee server is running...");
 });
 
+module.exports = app;
 // Start Server
-app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
-});
+// app.listen(port, () => {
+//   console.log(`Server running on port ${port}`);
+// });
